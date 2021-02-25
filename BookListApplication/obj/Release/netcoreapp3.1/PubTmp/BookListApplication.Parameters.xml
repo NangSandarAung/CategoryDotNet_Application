@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BookListApplicationCRUD" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\ASP\.NET_CORE\\BookListApplication\\BookListApplication\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="BookListApplication.Data.BookListDbContext" description="" value="Server=DESKTOP-4S0JE7R;Database=BookListDemo;Trusted_Connection=True;MultipleActiveResultSets=True" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\ASP\.NET_CORE\\BookListApplication\\BookListApplication\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\BookListApplication\.Data\.BookListDbContext\.sql$" />
+  </parameter>
+</parameters>
